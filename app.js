@@ -18,7 +18,7 @@ const aboutContent = "About habitasse platea dictumst vestibulum rhoncus est pel
 const contactContent = "Contact eleifend donec pretium vulputate sapien. Rhoncus urna neque viverra justo nec ultrices. Arcu dui vivamus arcu felis bibendum. Consectetur adipiscing elit duis tristique. Risus viverra adipiscing at in tellus integer feugiat. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Consequat interdum varius sit amet mattis. Iaculis nunc sed augue lacus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Pulvinar elementum integer enim neque. Ultrices gravida dictum fusce ut placerat orci nulla. Mauris in aliquam sem fringilla ut morbi tincidunt. Tortor posuere ac ut consequat semper viverra nam libero.";
 
 mongoose.set('strictQuery', true); //Avoids Deprecation Warning
-mongoose.connect("mongodb://localhost:27017/blogSite", { useNewUrlParser: true}); //Connects to DB
+mongoose.connect("mongodb+srv://Abhi:Test123@blogsite.38bhrpf.mongodb.net/blogSite", { useNewUrlParser: true}); //Connects to DB
 
 //Schema and Model for Posts
 const postSchema = {
